@@ -1,0 +1,3 @@
+[submodule "libs/FreeRTOS"]
+	path = libs/FreeRTOS
+	url = https://github.com/rocpe/FreeRTOS-Kernel-meson.git
