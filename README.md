@@ -79,7 +79,7 @@ MEMORY
 /* Include the common ld script. */
 INCLUDE cortex-m-generic.ld
 ```
-For other stm32 you can find linker script in the [internet](https://github.com/alextrical/STM32-linker-scripts/tree/main/LD%20Files) (use just memory layout part of those scripts) or read documentation for memory layout for your MC.
+For other stm32 you can find linker script in the [internet](https://github.com/alextrical/STM32-linker-scripts) (use just memory layout part of those scripts) or read documentation for memory layout for your MC.
 
 4. Edit `meson_options.txt` file:
 ```
