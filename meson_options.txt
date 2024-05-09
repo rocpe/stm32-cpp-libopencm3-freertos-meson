@@ -1,19 +1,19 @@
 option('enable_docs',
   type : 'boolean',
-  value : true,
+  value : true, # enable docs
   description : 'Generate documentation with doxygen')
 
 option('enable_graphs',
   type : 'boolean',
-  value : true,
+  value : true, # enable graphs in docs
   description : 'Enable doxygen to generate graphs using dot')
 
 option('alloc',
   type : 'string',
-  value : 'heap_4',
+  value : 'heap_4', # use heap_1 or whatever
   description : 'Allocator file name.')
 
 option('port',
   type : 'string',
-  value : 'GCC/ARM_CM3',
+  value : 'GCC/ARM_CM3', # change to your MC arch. Look at libs/FreeRTOS/portable/
   description : 'Port folder')

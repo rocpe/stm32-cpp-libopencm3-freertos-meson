@@ -1,5 +1,5 @@
 project(
-    'bl-clock-meson', 'c', 'cpp',
+    'stm32-cpp-libopencm3-freertos-meson', 'c', 'cpp',
     version : '1.0',
     default_options : [
       'c_std=c2x',
