@@ -1,0 +1,19 @@
+option('enable_docs',
+  type : 'boolean',
+  value : true,
+  description : 'Generate documentation with doxygen')
+
+option('enable_graphs',
+  type : 'boolean',
+  value : true,
+  description : 'Enable doxygen to generate graphs using dot')
+
+option('alloc',
+  type : 'string',
+  value : 'heap_4',
+  description : 'Allocator file name.')
+
+option('port',
+  type : 'string',
+  value : 'GCC/ARM_CM3',
+  description : 'Port folder')
