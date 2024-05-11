@@ -7,6 +7,12 @@ Clone this repo with submodules:
 ```bash
 git clone --recurse-submodules https://github.com/rocpe/stm32-cpp-libopencm3-freertos-meson.git
 ```
+If you want you can link and push this project to your newly created project on github:
+```bash
+#OPTIONAL:
+git remote set-url origin http://github.com/YOU/YOUR_REPO
+git push origin
+```
 Go to the root directory of the project and configure:
 ```bash
 meson setup build/release --cross-file=cross-file.txt --buildtype=release
@@ -32,6 +38,8 @@ Upload via st-link:
 ```bash
 meson compile -C build/release flash
 ```
+
+You might also want to change project name in `meson.build`.
 
 # Porting to other stm32
 Default stm32 is stm32f103cbt6 (popular bluepill board). Here is shown how to port this project to other stm32 by example.
